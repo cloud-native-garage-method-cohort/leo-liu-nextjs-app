@@ -2,10 +2,10 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: kisoong-leo-assignment
-    app.kubernetes.io/instance: kisoong-leo-assignment
-    app.kubernetes.io/name: kisoong-leo-assignment
-  name: kisoong-leo-assignment
+    app: leo-liu-assignment
+    app.kubernetes.io/instance: leo-liu-assignment
+    app.kubernetes.io/name: leo-liu-assignment
+  name: leo-liu-assignment
 spec:
   ports:
     - name: http
@@ -13,7 +13,7 @@ spec:
       protocol: TCP
       targetPort: 3000
   selector:
-    app.kubernetes.io/instance: kisoong-leo-assignment
-    app.kubernetes.io/name: kisoong-leo-assignment
+    app.kubernetes.io/instance: leo-liu-assignment
+    app.kubernetes.io/name: leo-liu-assignment
   sessionAffinity: None
   type: ClusterIP

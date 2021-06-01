@@ -7,6 +7,6 @@ spec:
     termination: edge
   to:
     kind: Service
-    name: kisoong-leo-assignment
+    name: leo-liu-assignment
     weight: 100
   wildcardPolicy: None
